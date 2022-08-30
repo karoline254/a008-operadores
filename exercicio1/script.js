@@ -1,7 +1,11 @@
 
-let num01 = Number (prompt("Digite um número par: "))
-console.log(num01 / 2)
+let num01 = Number(prompt("Digite um número par: "))
+console.log("Número: ", num01)
 
-// O resultado sempre vai ser positivo
+let resto = num01 / 2
+let resultado = num01 % 2
 
-// Caso insira um número ímpar, o resultado será quebrado. EX: 5 / 2 = 2.5
+console.log("O resto: ", resultado)
+
+// Sendo inserido número par, o resultado dividindo por 2 = 0 
+// Digitando qualquer número, o 
